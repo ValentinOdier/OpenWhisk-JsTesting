@@ -24,10 +24,12 @@ Phantomjs may open a lot of files since i open an url.
 The dockerfile should create an openwhisk action
 
 you can try the code by building the docker :
-
+```
 docker build -t user/project-name .
-docker run -p 8080:8080 uer/project-name
-
+```
+```
+docker run -p 8080:8080 user/project-name
+```
 Now you can query the server like OpenWhisk would using post on /run
 The task should notcrash if you don't give database information. Anyway the script should always respond with (if i get an error)
 
