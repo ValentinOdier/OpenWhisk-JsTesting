@@ -33,10 +33,10 @@ docker run -p 8080:8080 user/project-name
 Now you can query the server like OpenWhisk would using post on /run
 The task should notcrash if you don't give database information. Anyway the script should always respond with (if i get an error)
 
-All parameters should be given in ```payload``` (This was a testing choice no real reason)
-
 ```javascript
 {
 	message: 'error'
 }
 ```
+
+All parameters should be given in ```payload``` (This was a testing choice no real reason)
